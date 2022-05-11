@@ -1,8 +1,8 @@
 import java.util.Scanner;  
-public class CheckPerfectSquareExample1  
+public class PerfectSquare 
 {   
   
-static boolean checkPerfectSquare(double number)    
+static boolean PerfectSquare(double number)    
 {   
 
 double sqrt=Math.sqrt(number);   
@@ -19,9 +19,9 @@ Scanner sc=new Scanner(System.in);
  
 double number=sc.nextDouble();   
  
-if (checkPerfectSquare(number))   
-System.out.print("Yes, the given number is perfect square.");   
+if (PerfectSquare(number))   
+System.out.print("Yes, number is perfect square.");   
 else  
-System.out.print("No, the given number is not perfect square.");   
+System.out.print("No, number is not perfect square.");   
   }   
 }   
